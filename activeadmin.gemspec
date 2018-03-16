@@ -19,7 +19,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   s.add_dependency "arbre",               "~> 1.0"
-  s.add_dependency "bourbon",             ">= 1.0.0", "< 4"
+  s.add_dependency "bourbon",             "5.0.0"
   s.add_dependency "devise",              ">= 1.5.4", "< 4"
   s.add_dependency "formtastic",          "~> 2.0"
   s.add_dependency "inherited_resources", "~> 1.3"
@@ -27,5 +27,5 @@ Gem::Specification.new do |s|
   s.add_dependency "kaminari",            "~> 0.13", "!= 0.15.0"
   s.add_dependency "meta_search",         "~> 1.0"
   s.add_dependency "rails",               ">= 3.0.0", "< 4"
-  s.add_dependency "sass",                "~> 3.1"
+  s.add_dependency "sass",                "3.5.5"
 end
